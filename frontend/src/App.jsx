@@ -4,7 +4,6 @@ import axios from 'axios';
 
 const API_BASE = import.meta.env.VITE_BACKEND_URL;
 
-
 const App = () => {
   const [view, setView] = useState('signup');
   const [user, setUser] = useState(null);
